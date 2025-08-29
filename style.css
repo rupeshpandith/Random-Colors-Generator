@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+}
+
+h1{
+  border-bottom: 2px solid black;
+}
+.container {
+  display: flex;
+}
+
+.colors {
+  width: 600px;
+  height: 545px;
+  margin: auto;
+}
+
+.color-box {
+  width: auto;
+  height: 100%;
+}
+
+.lock-btn {
+  border:none;
+  background: none;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.locked button{
+  opacity: 0.6; /* dim box when locked */
+}
